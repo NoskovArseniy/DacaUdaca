@@ -1,0 +1,68 @@
+
+li {
+    background: #ddd;
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+  list-style-type: none;
+  }
+  
+  .menu li {
+    cursor: pointer;
+  }
+  
+  .menu li > a {
+    display: block;
+    text-decoration: none;
+  }
+
+  @import url(https://fonts.googleapis.com/css?family=Rubik+One&subset=latin,cyrillic);
+  gradient-text{
+    font-family: 'Rubik One', sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #0B2349 33%, #0D61BC 66%, #8AA9D6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+    display: table;
+    margin: 20px auto;
+  }
+footer{
+    background-color: rgb(21, 90, 90);
+} 
+.menuu{
+    background: rgb(46, 87, 165);
+    border: 1px solid rgb(48, 68, 158);
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+  list-style-type: none;
+  box-shadow: black;  
+}
+.menuu li {
+    cursor: pointer;
+  }
+  
+  .menuu li > a {
+    display: block;
+    text-decoration: none;
+  }
+  h2{
+    background-color: lightgreen;
+  }
+  h1{
+    background-color: lightblue;
+  }
+  main{
+    width: 60%;
+    margin: 0 auto;
+  }
+  body{
+    background-color: #8AA9D6;
+  }
+  h3{
+    background-color: lightcyan;
+    color:lightcoral
+  }
